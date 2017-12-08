@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <title>SIAM Sederhana</title>
+    </head>
+    <body>
+        <div data-role="page" id="page-one" class="ui-body-a">
+            <div data-role="header">
+                <h1>Login</h1>
+                <div class="form-row">
+                    <input type="text" id="nim" class="text-input--underbar width-full" placeholder="NIM anda" autocomplete="off">
+                </div>
+                <div class="form-row">
+                    <input type="password" name="password" class="text-input--underbar width-full" placeholder="Password" autocomplete="off">
+                </div>
+                <center><div class="form-row">
+                    <input type="submit" name="submit" id="login" value="Login">
+                </div></center>
+                <script type="text/javascript">
+                        $("#login").click(function(){
+                            alert("haha");
+                        });
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
